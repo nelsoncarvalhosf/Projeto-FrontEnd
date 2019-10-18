@@ -2,10 +2,10 @@ h1{
 	padding: 0;
 	margin: 0;
 }
-h2.app-title{
+h2.form__title{
 	color:#000;
 }
-section.main-feature{
+section.main__feature{
 	background-color: #CCC;
 	width: 100vw;
 	height: 75vh;
@@ -18,24 +18,23 @@ aside{
 	padding: 0 1vw;
 	overflow: hidden;
 }
-#form_register input{
-	display: block;
-	margin: 5px 0;
-}
-#inputs{
+#form__inputs{
 	float: right;
 	width: 50vw;
 	padding: 2vh 2vw;
 }
-
-#box_img{
+#form__inputs input{
+	display: block;
+	margin: 5px 0;
+}
+#form__img{
 	border-radius: 50%;
   	width: 150px;
   	height: 150px;
   	overflow: hidden;
 	margin: 0 auto;
 }
-#show-picture{
+#form__img--show{
 	width: 100%;
 }
 #fullscreen{

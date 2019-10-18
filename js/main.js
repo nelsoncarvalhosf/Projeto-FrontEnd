@@ -1,6 +1,6 @@
 (function () {
-    var takePicture = document.querySelector("#take-picture"),
-        showPicture = document.querySelector("#show-picture");
+    var takePicture = document.querySelector("#form__img--take"),
+        showPicture = document.querySelector("#form__img--show");
 
     if (takePicture && showPicture) {
         takePicture.onchange = function (event) {
