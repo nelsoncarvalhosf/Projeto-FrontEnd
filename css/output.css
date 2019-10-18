@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFF;
+}
+body > header {
+  background-color: #444;
+  height: 15vh;
+  box-sizing: border-box;
+  padding: 1vw;
+}
+body > main {
+  height: 75vh;
+}
+body > footer {
+  height: 10vh;
+  background-color: #555;
+  text-align: center;
+}
+
+/*# sourceMappingURL=output.css.map */
