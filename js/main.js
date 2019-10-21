@@ -44,4 +44,36 @@ function launchFullscreen(element) {
 	} else if(element.msRequestFullscreen) {
 	  element.msRequestFullscreen();
 	}
-  };
+  }
+
+  function cadastro(id,name,email,phone){
+	  this.id = id;
+	  this.name = name;
+	  this.email = email;
+	  this.phone = phone;
+  }
+
+cadastro();
+var cadUser;
+var id = 1;
+
+  function add_user(){
+	inputName = document.getElementsByName('name')[0].value;
+	inputEmail = document.getElementsByName('email')[0].value;
+	inputPhone = document.getElementsByName('phone')[0].value;
+
+	const user = [inputName,inputEmail,inputPhone];
+
+	let [name,email,phone] = user;
+
+	cadUser = new cadastro(id,name,email,phone);
+	
+	console.log(id);
+	console.log(name);
+	console.log(email);
+	console.log(phone);
+
+	id++;
+	
+	event.preventDefault();
+  }
