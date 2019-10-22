@@ -46,14 +46,14 @@ function launchFullscreen(element) {
 	}
   }
 
-  function cadastro(id,name,email,phone){
+function cadastro(id,name,email,phone){
 	  this.id = id;
 	  this.name = name;
 	  this.email = email;
 	  this.phone = phone;
-  }
+  };
 
-cadastro();
+
 var cadUser;
 var id = 1;
 
@@ -68,11 +68,11 @@ var id = 1;
 
 	cadUser = new cadastro(id,name,email,phone);
 	
-	console.log(id);
-	console.log(name);
-	console.log(email);
-	console.log(phone);
-
+		console.log(id);
+		console.log(name);
+		console.log(email);
+		console.log(phone);
+	
 	id++;
 	
 	event.preventDefault();
