@@ -45,7 +45,7 @@ function launchFullscreen(element) {
 	  element.msRequestFullscreen();
 	}
   }
-
+//fucntion cadastro
 function cadastro(id,name,email,phone){
 	  this.id = id;
 	  this.name = name;
