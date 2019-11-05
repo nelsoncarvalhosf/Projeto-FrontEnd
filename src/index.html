@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="pt-BR">
 
 <head>
   <meta charset="utf-8">
@@ -16,23 +16,23 @@
 
 <body>
 	<header>
-		<h1>Cadastro de Usuários</h1>
+		<h1 aria-live="assertive">Cadastro de Usuários</h1>
 		<nav>menu</nav>
 	</header>
 	<main id="main__content"> 
-		<button id="fullscreen" onclick="launchFullscreen(document.getElementById('main__content'))" name="fullscreen"><img src="img/fullscreen.png" width="20px"></button>
+		<button id="fullscreen" onclick="launchFullscreen(document.getElementById('main__content'))" name="fullscreen"><img src="img/fullscreen.png" alt="Botão FullScreen" width="20px"></button>
 		<section class="main__feature">
 			<form action="#" method="POST" id="form__register">		
 				<aside>
 					<h2>Foto Perfil:</h2>
 					<div id="form__img">
-						<img src="img/default.jpg" alt="" id="form__img--show">
+						<img src="img/default.jpg" alt="Default do Perfil" id="form__img--show">
 					</div>
 					<p id="error"></p>
 					<input type="file" id="form__img--take" accept="image/*">
 				</aside>
-				<div id="form__inputs">
-					<h2 class="form__title">Preencha os dados</h2>
+				<div id="form__inputs" aria-labelledby="form__cadastro">
+					<h2 class="form__title" id="form__cadastro">Preencha os dados</h2>
 					<input type="text" name="name" placeholder="Nome">
 					<input type="text" name="email" placeholder="Email">
 					<input type="text" name="phone" placeholder="Telefone">
